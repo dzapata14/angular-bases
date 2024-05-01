@@ -12,7 +12,7 @@ const routes: Routes = [
       { path:'new-hero', component: NewPageComponent },
       { path:'search', component: SearchPageComponent },
       { path:'list', component: ListPageComponent },
-      { path:'edit/:id', component: HeroPageComponent },
+      { path:'edit/:id', component: NewPageComponent },
       { path:':id', component: HeroPageComponent },
       { path:'**', redirectTo: 'list' }
     ]
